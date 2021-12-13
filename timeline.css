@@ -1,0 +1,104 @@
+#timelineTitleText{
+    position: relative;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#log{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 300%;
+    font-weight: 700;
+    height: fit-content;
+    width: 100vw;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#timeline{
+    position: relative;
+    flex-direction: column;
+    padding-top: 10vh;
+}
+
+.company{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin: 0vw 20vw;
+    padding-bottom: 5vh;
+    border-left: solid 3px black;
+}
+
+.company::after{
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: calc(20vw - 8px);
+    border-radius: 100px;
+    background: white;
+    border: 2px solid black;
+    z-index: 1;
+}
+
+.company:nth-child(odd){
+    background-color: rgba(30, 30, 30, 0.2);
+}
+
+.companyPicture{
+    display: flex;
+    flex-basis: 10vw;
+}
+
+.companyText{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50vw;
+}
+
+.companyYear{
+    display: flex;
+    color: grey;
+}
+
+.companyName{
+    display: flex;
+    padding-left: 10px;
+
+}
+
+.companyJob{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 20px;
+}
+
+.underPointText{
+    display: none;
+    flex-direction: row;
+    padding-top: 7.5px;
+    padding-left: 5px;
+}
+
+.companyText:hover .underPointText{
+    display: flex;
+}
+
+.underPoint{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 4px;
+}
+
+.underText{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding-left: 5px;
+}

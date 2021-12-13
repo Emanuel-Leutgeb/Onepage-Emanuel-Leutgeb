@@ -1,0 +1,58 @@
+#itGeil{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+    font-size: 600%;
+    font-weight: 700;
+    min-height: 130vh;
+    background-color: rgba(32, 33, 34, 1);
+}
+
+#geil{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+    font-size: 700%;
+    font-weight: 700;
+    min-height: 60vh;
+    background-color: rgba(32, 33, 34, 1);
+}
+
+#whyIt{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: rgba(32, 33, 34, 1);
+    color: white;
+    width: 100vw;
+    overflow-wrap: anywhere;
+}
+
+#itTitelText{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    min-height: 10vh;
+    font-size: 300%;
+    font-weight: 700;
+
+}
+
+#itText{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    text-align: justify;
+    align-items: end;
+    min-height: 70vh;
+    font-size: 150%;
+    font-weight: 300;
+    padding: 0 20vw;
+    padding-bottom: 30vh;
+}

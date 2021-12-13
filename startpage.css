@@ -1,0 +1,103 @@
+#startpage{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 3;
+    background-image: linear-gradient(to right, rgba(32, 33, 34, 1) 85%, white 15%);
+    height: 80vh;
+}
+
+#titleText{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    flex-basis: 75%;
+}
+
+#firstname{
+    font-size: 5vh;
+    font-weight: 700;
+    display: flex;
+    z-index: 1;
+    flex-grow: 1;
+    color: white;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#surname{
+    font-size: 5vh;
+    font-weight: 700;
+    display: flex;
+    z-index: 1;
+    color: white;
+    justify-content: center;
+    padding-left: 10vw;
+    padding-top: 1vw;
+}
+
+#job{
+    font-size: 3vh;
+    font-weight: 700;
+    display: flex;
+    z-index: 1;
+    flex-grow: 1;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding-left: 4vw;
+    padding-top: 3vw;
+}
+
+#titlePicture{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 25%;
+}
+
+#titlePicture img{
+    max-height: 80%;
+    max-width: 100%;
+    margin-right: 10vw;
+}
+
+#aboutMe{
+    display: flex;
+    flex-direction: row;
+}
+
+#about{
+    font-size: 3vh;
+    font-weight: 300;
+    display: flex;
+    flex-basis: 85vw;
+    height: 10vh;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+#me{
+    font-size: 3vh;
+    font-weight: 300;
+    display: flex;
+    flex-basis: 15vw;
+    height: 10vh;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.arrow{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow img{
+    width: 5vw;
+    padding: 2px;
+}

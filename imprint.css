@@ -1,0 +1,42 @@
+#backMenu{
+    background-color: rgba(32, 33, 34, 1);
+    max-height: 10vh;
+    min-width: 5%;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+#back{
+    font-size: large;
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding-left: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+#imprint{
+    background-image: linear-gradient(to left, rgba(32, 33, 34, 1) 95%, white 5%);
+    min-width: 100vw;
+    min-height: 100vh;
+    font-size: larger;
+    color: white;
+}
+
+.emanuelleutgeb{
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px white;
+}
+
+#DSGVO{
+    margin: auto;
+    flex-grow: 4;
+    margin-top: 2vw;
+    margin: 0 10vw;
+}

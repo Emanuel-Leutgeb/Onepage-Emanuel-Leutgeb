@@ -1,0 +1,16 @@
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(to left, rgba(32, 33, 34, 1) 95%, white 5%);
+    height: 5vh;
+    padding-left: 60%;
+}
+
+#backMenu{
+    background-color: rgba(32, 33, 34, 1);
+    height: 10vh;
+    width: 100%;
+}

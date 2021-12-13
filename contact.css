@@ -1,0 +1,132 @@
+#interest{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+    align-items: flex-end;
+    flex-grow: 1;
+    background-image: linear-gradient(to left, rgba(32, 33, 34, 1) 95%, white 5%);
+    color: white;
+    margin-top: 5vw;
+    height: 20vh;
+    font-size: 5vh;
+    font-weight: 700;
+    padding-left: 10%;
+}
+
+#contactField{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-grow: 1;
+    background-image: linear-gradient(to right, rgba(32, 33, 34, 1) 95%, white 5%);
+    color: white;
+    height: 80vh;
+    width: 100vw;
+}
+
+#contactField form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+    height:100%;
+    width: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#getInTouch{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+    align-items: flex-end;
+    height: 9vh;
+    flex-grow: 1;
+    font-size: 3.5vh;
+    padding-left: 20%;
+}
+
+.contactLineTyp1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 13vh;
+}
+
+.contactLineTyp2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+}
+
+.whatInput{
+    display: flex;
+    min-width: 15%;
+    font-size: 3.5vh;
+    text-align: left;
+    padding-left: 30vw;
+}
+
+.textInput{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+}
+
+#send{
+    width: 100vw;
+    height: 25vh;
+}
+
+#send button{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 100px;
+    background: white;
+    border: 2px solid black;
+    font-size: 3vh;
+}
+
+#send button:hover{
+    transform: scale(120%);
+}
+
+#name{
+    color: rgb(248, 248, 248);
+    width: 50%;
+    font-size: 3vh;
+    font-family: manrope;
+    border: 0;
+    border-bottom: solid 1px #999;
+    background-color: transparent;
+}
+
+#email{
+    color: rgb(248, 248, 248);
+    width: 50%;
+    font-size: 3vh;
+    font-family: manrope;
+    border: 0;
+    border-bottom: solid 1px #999;
+    background-color: transparent;
+}
+
+#message{
+    color: rgb(248, 248, 248);
+    width: 50%;
+    font-size: 3vh;
+    border: 0;
+    border-bottom: solid 1px #999;
+    background-color: transparent;
+    font-family: manrope;
+}

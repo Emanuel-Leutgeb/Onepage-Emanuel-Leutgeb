@@ -1,0 +1,21 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+    overflow-wrap: anywhere;
+}
+
+#onepage{
+    display: flex;
+    flex-direction: column;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;   
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}

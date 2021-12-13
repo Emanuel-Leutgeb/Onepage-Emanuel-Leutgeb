@@ -1,0 +1,61 @@
+#projects{
+    background-image: linear-gradient(to right, rgba(32, 33, 34, 1) 95%, white 5%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#backMenu{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(32, 33, 34, 1);
+    max-height: 10vh;
+    min-width: 5%;
+    color: white;
+    position: sticky;
+    top: 0;
+
+}
+
+#back{
+    font-size: large;
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding-right: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+#titleProjects{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: left;
+    padding-left: 10%;
+    font-size: 5vh;
+    font-weight: 700;
+}
+
+#listProjects{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 10%;
+    height: fit-content;
+}
+
+.myProject{
+    display: flex;
+    border: 1px solid white;
+    margin: 10%;
+    width: 20vw;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+}
